@@ -119,6 +119,8 @@ img {
     padding-bottom: 32px;
 }
 
+ 
+
 .nav-contacts a:hover {
     color: var(--brand-color);
 }
@@ -140,10 +142,30 @@ img {
     display: flex;
     align-items: center;
 }
+.nav-list-links a {
+    display: flex;
+    align-items: center;
+    
+
+}
 
 .nav-list-links:not(:last-child) {
     margin-right: 50px;
 }
+
+.nav-icon-mail {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+.nav-icon-tel {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 
 
 /* hero */
@@ -245,6 +267,16 @@ img {
 .features-items li {
     width: calc((100%-3*30)/4)
 }
+.features-picture {
+    padding: 25px 102px;
+    margin-bottom: 30px;
+
+    background-color: #F5F4FA;
+}
+.features-icon {
+    width: 65px;
+    height: 70px;
+}
 
 
 /* Our work */
@@ -295,6 +327,7 @@ img {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    margin-bottom: 16px;
 
     color: #757575;
 }
@@ -307,6 +340,22 @@ img {
 .our-team .team-description {
     padding: 30px;
 }
+.social-list {
+    display: flex;
+    list-style: none;
+}
+.social-network {
+    display: inline-flex;
+    background-color: red;
+    padding: 12px;
+    border-radius: 50%;
+    
+}
+.inst-icon {
+    width: 20px;
+    height: 20px;
+}
+
 
 /* Footer  */
 .footer {
