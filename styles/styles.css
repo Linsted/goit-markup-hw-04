@@ -145,8 +145,6 @@ img {
 .nav-list-links a {
     display: flex;
     align-items: center;
-    
-
 }
 
 .nav-list-links:not(:last-child) {
@@ -338,24 +336,59 @@ img {
 }
 
 .our-team .team-description {
-    padding: 30px;
+    padding: 30px 32px;
 }
 .social-list {
     display: flex;
     list-style: none;
 }
+.social-items:not(:last-child) {
+    margin-right: 10px;
+}
 .social-network {
     display: inline-flex;
-    background-color: red;
+    background-color: #FFFFFF;
     padding: 12px;
     border-radius: 50%;
+    fill: #AFB1B8;
     
 }
-.inst-icon {
+.social-network:hover,
+.social-network:focus {
+    background-color: var(--brand-color);
+    fill: #FFFFFF;
+}
+.social-icon {
     width: 20px;
     height: 20px;
 }
 
+/* Our clients  */
+
+.clients-list {
+display: flex;
+list-style: none;
+gap: 30px;
+}
+.clients-item {
+height: 92px;
+} 
+.client-link {
+display: inline-flex;
+fill: #AFB1B8;
+}
+
+.client-icon {
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+} 
+.client-icon:hover {
+fill: var(--brand-color);
+border: 1px solid var(--brand-color);
+border-radius: 4px;
+}
 
 /* Footer  */
 .footer {
@@ -364,6 +397,7 @@ img {
 
     background-color: #2F303A;
 }
+
 
 .footer a {
     text-decoration: none;
@@ -404,10 +438,57 @@ img {
     color: var(--brand-color);
 }
 
-.footer li:not(:last-child) {
+.footer .address-item:not(:last-child) {
     margin-bottom: 9px;
 
 }
+.footer-address {
+    margin-right: 70px;
+}
+.footer-sections {
+    display: flex;
+}
+.container-join {
+    width: 206px;
+    padding-top: 12px;
+}
+.title-join {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.join-list {
+    display: flex;
+    gap: 10px;
+}
+.join-item {
+    display: inline-flex;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #FFFFFF1A;
+    margin-bottom: 0;
+}
+/* .join-link {
+    width: 20px;
+    height: 20px;  
+} */
+.join-icons {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+.join-item:hover,
+.join-item:focus {
+    background-color: var(--brand-color);
+
+ }
 
 /* Portfolio page */
 /* Buttons */
