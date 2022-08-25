@@ -514,8 +514,8 @@ img {
     fill: #FFFFFF;
 }
 
-.join-item:hover,
-.join-item:focus {
+.join-link:hover,
+.join-link:focus {
     background-color: var(--brand-color);
 
 }
